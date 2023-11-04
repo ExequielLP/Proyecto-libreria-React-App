@@ -1,0 +1,66 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "El sonido de los planetas",
+      "caracteristicas": "Explora planetas, su influencia cósmica y conexión con la vida humana en tierra espacial.",
+      "precio": "3000",
+      "foto": "libro1.webp"
+      
+    },
+    {
+      "id": 2,
+      "nombre": "Alas de sangre",
+      "caracteristicas": "Vampiro busca amor y lucha en mundo sobrenatural contemporáneo.",
+      "precio": 1000,
+      "foto": "libro2.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "El camino de la miseria",
+      "caracteristicas": "Búsqueda de redención en camino marcado por desafíos sobre todo inplacables",
+      "precio": 2500,
+      "foto": "libro3.webp"
+    },
+    {
+      "id": 4,
+      "nombre": "Mas alla del mundo",
+      "caracteristicas": "Planeta diverso con culturas, geografía y desafíos interconectados entre si-",
+      "precio": 3000,
+      "foto": "libro4.webp"
+    },
+    {
+      "id": 5,
+      "nombre": "Mi portada de libro",
+      "caracteristicas": "Lucha personal supera obstáculos, revelando autodescubrimiento y crecimiento interior.",
+      "precio": 1500,
+      "foto": "libro5.webp"
+    },
+    {
+      "id": 6,
+      "nombre": "Crea tu porta libro",
+      "caracteristicas": "Explora diseño personal de portadas literarias con creatividad única y especial en el mundo .",
+      "precio": 3000,
+      "foto": "libro6.webp"
+    },
+    {
+      "id": 7,
+      "nombre": "El superviviente",
+      "caracteristicas": "Sobreviviente lucha, desafía adversidades, encuentra fuerza interior inquebrantable.",
+      "precio": "300",
+      "foto": "libro7.webp",
+      "undefined": "300"
+    },
+    {
+      "id": 8,
+      "nombre": "Alemdra Won-Pyung",
+      "caracteristicas": "Aventura surreal, búsqueda de identidad, revela conexiones sorprendentes universo paralelos.",
+      "precio": "2000",
+      "foto": "libro8.webp",
+      "undefined": "2000"
+    }
+  ],
+  "carrito": [
+  
+  ]
+}
