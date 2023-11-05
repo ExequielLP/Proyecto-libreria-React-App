@@ -14,7 +14,7 @@ agregarCarritoContext(producto)
     }
   return (
     <div className="card  col-3  p-1 mb-0 mt-1  BackGrupdCards " >
-    <img src="/fotos/libro1.webp" className="card-img-top" alt="..."/>
+    <img src="../fotos/libro1.webp" className="card-img-top" alt="..."/>
     <div className="card-body   CardBodyExe ">
       <h5 className="card-title CardStyle">Titulo: {producto.nombre}</h5>
       {/* <!-- Lista con caracteristicas  de la card --> */}
