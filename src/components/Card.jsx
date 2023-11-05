@@ -16,7 +16,7 @@ agregarCarritoContext(producto)
     <div className="card  col-3  p-1 mb-0 mt-1  BackGrupdCards " >
     <img src={`/fotos/${producto.foto}`} className="card-img-top" alt="..."/>
     <div className="card-body   CardBodyExe ">
-      <h5 className="card-title CardStyle">Titulo: {producto.nombre}h</h5>
+      <h5 className="card-title CardStyle">Titulo: {producto.nombre}</h5>
       {/* <!-- Lista con caracteristicas  de la card --> */}
       <ul className="list-group mb-3">
         <li className="list-group-item list-group-item-primary CardStyle">{producto.caracteristicas}
