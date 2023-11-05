@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { CarritoContext } from '../contexto/CarritoContexto'
-import{foto1}from "../public/fotos/libro1.webp"
+import foto1 from "../public/fotos/libro1.webp"
 
 export const Card = ({producto}) => {
   
