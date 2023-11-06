@@ -9,7 +9,7 @@ const Navbar = () => {
 const {handleTheme,cargarLocalStrorage}=useContext(ThemeContext)
 
 useEffect(() => {
-cargarLocalStrorage
+cargarLocalStrorage()
 }, [])
 
 
