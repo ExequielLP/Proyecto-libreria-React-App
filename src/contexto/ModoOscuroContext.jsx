@@ -8,7 +8,7 @@ const temaInciail="light"
 const ThemeProvider=({children})=>{
 
 const [theme, settheme] = useState(temaInciail)
-settheme=localStorage.getItem("modo")
+
 const handleTheme=()=>{
    
     (theme==="light")? settheme("dark") : settheme(temaInciail)
@@ -18,7 +18,7 @@ const handleTheme=()=>{
 function cargarLocalStrorage(){
     if (localStorage.getItem("modo")===null) {
         localStorage.setItem("modo","light")  
-        document.body.setAttribute("data-bs-theme",theme)
+        document.body.setAttribute("data-bs-theme","light")
     }else if(localStorage.getItem("modo")==="dark"){
         localStorage.setItem("modo","dark")  
         document.body.setAttribute("data-bs-theme","dark")
