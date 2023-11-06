@@ -3,7 +3,7 @@ import { createContext } from "react";
 
 const ThemeContext=createContext()
 
-const temaInciail="light"
+const temaInciail="dark"
 
 const ThemeProvider=({children})=>{
 
@@ -11,7 +11,7 @@ const [theme, settheme] = useState(temaInciail)
 
 const handleTheme=()=>{
    
-    (theme==="light")? settheme("dark") : settheme(temaInciail)
+    (theme==="light") ? settheme("dark") : settheme(temaInciail)
     document.body.setAttribute("data-bs-theme",theme)
     localStorage.setItem("modo",theme)  
 }
