@@ -18,13 +18,11 @@ const handleTheme=()=>{
 function cargarLocalStrorage(){
     let itemLS=localStorage.getItem("modo")
     if (itemLS===null) {
-        localStorage.setItem("modo","light")  
-        document.body.setAttribute("data-bs-theme","light")
+        localStorage.setItem("modo","dark")  
         
-    }else if(localStorage.getItem("modo")==="dark"){
         
-        document.body.setAttribute("data-bs-theme","dark")
-    }else if (localStorage.getItem("modo")=="light") {
+    }else if(localStorage.getItem("modo")==="light"){
+        
         document.body.setAttribute("data-bs-theme","light")
     }
 }
