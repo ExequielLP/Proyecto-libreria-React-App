@@ -3,7 +3,7 @@ import { createContext } from "react";
 
 const ThemeContext=createContext()
 
-const temaInciail="dark"
+const temaInciail="light"
 
 const ThemeProvider=({children})=>{
 
