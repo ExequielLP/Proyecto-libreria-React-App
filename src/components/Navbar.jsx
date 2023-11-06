@@ -64,7 +64,7 @@ vaciarCarritoContext()
                 <NavLink className="nav-link active" aria-current="page"to={'/Alta'}><button className="btn btn-sm btn-outline-secondary" type="button">Alta</button></NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" ><button id="modo" className="btn btn-sm btn-outline-secondary" type="button" onClick={()=>handleTheme()}><i  className="fa-regular fa-sun"></i></button></a>
+                <a className="nav-link active" ><button id="modo" className="btn btn-sm btn-outline-secondary" type="button" onClick={handleTheme}><i  className="fa-regular fa-sun"></i></button></a>
               </li>
               <li className="nav-item">
                 <div className="nav-link">
