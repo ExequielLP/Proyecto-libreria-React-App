@@ -19,6 +19,7 @@ function cargarLocalStrorage(){
     if (localStorage.getItem("modo")===null) {
         localStorage.setItem("modo","light")  
         document.body.setAttribute("data-bs-theme","light")
+        settheme="light"
     }else if(localStorage.getItem("modo")==="dark"){
         localStorage.setItem("modo","dark")  
         document.body.setAttribute("data-bs-theme","dark")
