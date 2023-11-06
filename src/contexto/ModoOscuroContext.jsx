@@ -8,7 +8,7 @@ const temaInciail="light"
 const ThemeProvider=({children})=>{
 
 const [theme, settheme] = useState(temaInciail)
-
+settheme=localStorage.getItem("modo")
 const handleTheme=()=>{
    
     (theme==="light")? settheme("dark") : settheme(temaInciail)
