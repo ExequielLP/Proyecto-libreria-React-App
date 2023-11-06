@@ -24,6 +24,8 @@ function cargarLocalStrorage(){
     }else if(localStorage.getItem("modo")==="dark"){
         
         document.body.setAttribute("data-bs-theme","dark")
+    }else if (localStorage.getItem("modo")=="light") {
+        document.body.setAttribute("data-bs-theme","light")
     }
 }
 
