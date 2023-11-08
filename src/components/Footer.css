@@ -7,59 +7,6 @@ box-sizing: border-box;
 }
 
 
-.bg-{color: red;} 
-
-.biblio{
-    font-family: 'Libre Franklin', sans-serif;
-text-align-last: left;
-color: black;
-}
-.pbiblio{
-    display: flex;
-    justify-content: end;
-    font-family: 'Libre Franklin', sans-serif;
-    font-style: italic;
-    font-size: 17px;
-    color: black;
-    
-}
-
-.biblio-nosotros i{
-    padding: 0px;
-    margin: 0px;
-color:  #796b5f;
-
-
-}
-.biblio-nosotros li{
-    margin: 10px;
-    display: inline-block;
-}
-.scaleicon:hover i{
-    transform: scale(120%);
-}
-
-.biblio-nosotros i.fb:hover{
-    color: #3b5998;
-    transition: 1s;
-}
-.biblio-nosotros i.tw:hover{
-    color: #00acee;
-    transition: 1s;
-}
-.biblio-nosotros i.inst:hover{
-    color:#D43089 ;
-    transition: 1s;
-}
-.biblio-nosotros i.mail:hover{
-    color: rgb(216, 41, 41);
-    transition: 1s;
-}
-.biblio-nosotros i.yt:hover{
-    color: rgb(240, 3, 3);
-    transition: 1s;
-}
-
 
 .tarjetas img{
     padding-top: 6px;
@@ -120,3 +67,40 @@ transition-duration:3s ;
     height: auto;
 
 }
+footer{
+    background-color: #212529;
+}
+
+.text-start{
+    color: #212529;
+}
+.footerContacto h3{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 300;
+}
+.footerContacto p{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 100;
+}
+
+
+.FooterIndex{
+    background-color: #212529;
+}
+footer ul ,li,h3,p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.SegundoULfooterIndex{
+    list-style-type: none;
+}
+.borderFooterliIndex{
+    border: 1px solid whitesmoke;
+    border-radius:5px ;
+    margin: 3px;
+    padding:1px;
+    list-style-type: none;
+}
+
+
+
+

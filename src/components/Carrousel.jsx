@@ -9,7 +9,7 @@ export const Carrousel = () => {
       <div id="carouselExampleSlidesOnly" className="carousel slide col-4" data-bs-ride="carousel"  data-bs-interval="2300" >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src='/imagenesCarusel/Foto1_optimizada.webp' className="d-block w-100" alt="..."/>
+            <img src='src/public/imagenesCarusel/Foto1_optimizada.webp' className="d-block w-100" alt="..."/>
             {/* <!-- aca combine el carrusel automatico con el carrusel que  tiene info en la imagen y le agregue una trnassicion copada --> */}
             <div className="carousel-caption d-none d-md-block">
               <h5>TU HOGAR</h5>
@@ -17,7 +17,7 @@ export const Carrousel = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src='/imagenesCarusel/Foto2Optimizada.webp' className="d-block w-100" alt="..."/>
+            <img src='src/public/imagenesCarusel/Foto2Optimizada.webp' className="d-block w-100" alt="..."/>
             {/* <!-- aca combine el carrusel automatico con el carrusel que  tiene info en la imagen  y le agregue transiscion--> */}
             <div className="carousel-caption d-none d-md-block">
               <h5>TU HOGAR</h5>
@@ -25,7 +25,7 @@ export const Carrousel = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src='/imagenesCarusel/foto3Optimizada.webp' className="d-block w-100" alt="..."/>
+            <img src='src/public/imagenesCarusel/foto3Optimizada.webp' className="d-block w-100" alt="..."/>
             {/* <!-- aca combine el carrusel automatico con el carrusel que  tiene info en la imagen, tambien transcicion --> */}
             <div className="carousel-caption d-none d-md-block">
               <h5>TU HOGAR</h5>
@@ -38,7 +38,7 @@ export const Carrousel = () => {
       <div id="carouselExampleSlidesOnly" className="carousel slide col-4" data-bs-ride="carousel"  data-bs-interval="2300" >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src='/imagenesCarusel/CARUSEL2-1Optimizada.webp' className="d-block w-100" alt="..."/>
+            <img src='src/public/imagenesCarusel/CARUSEL2-1Optimizada.webp' className="d-block w-100" alt="..."/>
             {/* <!-- aca combine el carrusel automatico con el carrusel que  tiene info en la imagen y le agregue una trnassicion copada --> */}
             <div className="carousel-caption d-none d-md-block">
               <h5>TU LIBRO FAVORITO</h5>
@@ -46,7 +46,7 @@ export const Carrousel = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src='/imagenesCarusel/CARUSEL2-3Optimizadaa.webp' className="d-block w-100" alt="..."/>
+            <img src='src/public/imagenesCarusel/CARUSEL2-3Optimizadaa.webp' className="d-block w-100" alt="..."/>
             {/* <!-- aca combine el carrusel automatico con el carrusel que  tiene info en la imagen  y le agregue transiscion--> */}
             <div className="carousel-caption d-none d-md-block">
               <h5>TU LIBRO FAVORITO</h5>
@@ -54,7 +54,7 @@ export const Carrousel = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src='/imagenesCarusel/CARUSEL2-2Optimizadaa.webp' className="d-block w-100" alt="..."/>
+            <img src='src/public/imagenesCarusel/CARUSEL2-2Optimizadaa.webp' className="d-block w-100" alt="..."/>
             {/* <!-- aca combine el carrusel automatico con el carrusel que  tiene info en la imagen, tambien transcicion --> */}
             <div className="carousel-caption d-none d-md-block">
               <h5>TU LIBRO FAVORITO</h5>
@@ -67,7 +67,7 @@ export const Carrousel = () => {
       <div id="carouselExampleSlidesOnly" className="carousel slide col-4" data-bs-ride="carousel"  data-bs-interval="2300" >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src='/imagenesCarusel/carrusel3-1Optimizada.webp' className="d-block w-100" alt="..."/>
+            <img src='src/public/imagenesCarusel/carrusel3-1Optimizada.webp' className="d-block w-100" alt="..."/>
             {/* <!-- aca combine el carrusel automatico con el carrusel que  tiene info en la imagen y le agregue una trnassicion copada --> */}
             <div className="carousel-caption d-none d-md-block">
               <h5>TU LUGAR IDEAL</h5>
@@ -77,7 +77,7 @@ export const Carrousel = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src='/imagenesCarusel/carrusel-3-2Optimizada.webp' className="d-block w-100" alt="..."/>
+            <img src='src/public/imagenesCarusel/carrusel-3-2Optimizada.webp' className="d-block w-100" alt="..."/>
             {/* <!-- aca combine el carrusel automatico con el carrusel que  tiene info en la imagen  y le agregue transiscion--> */}
             <div className="carousel-caption d-none d-md-block">
               <h5>TU LUGAR IDEAL</h5>
@@ -87,7 +87,7 @@ export const Carrousel = () => {
             </div>
           </div>  
           <div className="carousel-item">
-            <img src='/imagenesCarusel/carrusel-3-3Optimizada.webp' className="d-block w-100" alt="..."/>
+            <img src='src/public/imagenesCarusel/carrusel-3-3Optimizada.webp' className="d-block w-100" alt="..."/>
             {/* <!-- aca combine el carrusel automatico con el carrusel que  tiene info en la imagen, tambien transcicion --> */}
             <div className="carousel-caption d-none d-md-block">
               <h5>TU LUGAR IDEAL</h5>

@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import './index.css'
 import * as bootstrao from 'bootstrap'
 import Inicio from './pages/Inicio'
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'

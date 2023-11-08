@@ -4,7 +4,7 @@ import { Form } from '../components/Form'
 import { Table } from '../components/Table'
 import ProductosContext from '../contexto/ProductoContext'
 import ThemeContext from '../contexto/ModoOscuroContext'
-
+import "./Alta.css"
 
 
 export const Alta = () => {

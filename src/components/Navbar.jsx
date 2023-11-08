@@ -4,6 +4,7 @@ import { NavLink,Link, useNavigate } from 'react-router-dom'
 import { CarritoContext } from '../contexto/CarritoContexto'
 import ItemCarritoInicio from './ItemCarritoInicio'
 import ThemeContext from '../contexto/ModoOscuroContext'
+import "./Navbar.css"
 const Navbar = () => {
 /* ModoDark */
 const {handleTheme,cargarLocalStrorage}=useContext(ThemeContext)

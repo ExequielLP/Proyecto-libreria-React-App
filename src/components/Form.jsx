@@ -55,10 +55,10 @@ setusuarioAedita(null)
        <div className='text-center'>
            <h1>{form.id ? "Editar" : "Agregar"}</h1>
            <form action="" onSubmit={handleSubmit}>
-            <input type="text" name='nombre' placeholder='Nombre del producto' onChange={handleChange} value={form.nombre}/>
-            <input type="text" name='caracteristicas' placeholder=' Caracteristicas'onChange={handleChange} value={form.caracteristicas}/>
-            <input type="text" name='precio' placeholder='precio'onChange={handleChange} value={form.precio}/>
-            <input type="text" name='foto' placeholder='foto'onChange={handleChange} value={form.foto}/>
+            <input type="text" name='nombre' placeholder='Nombre del producto' onChange={handleChange} value={form.nombre} className='me-2'/>
+            <input type="text" name='caracteristicas' placeholder=' Caracteristicas'onChange={handleChange} value={form.caracteristicas} className='me-2'/>
+            <input type="text" name='precio' placeholder='precio'onChange={handleChange} value={form.precio} className='me-2'/>
+            <input type="text" name='foto' placeholder='foto'onChange={handleChange} value={form.foto} className='me-2'/>
             <br />
             <button className="btn ExeBoton1 me-1 mt-3" type='submit'>Enviar</button>
             <button  className="btn ExeBoton1 mt-3 " type='reset' onClick={handleReset}>Limpiar</button>

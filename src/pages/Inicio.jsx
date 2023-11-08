@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import { Card } from '../components/Card'
 import { useContext } from 'react'
 import ProductosContext from '../contexto/ProductoContext'
-
+import "./inicio.css"
 
 
 const Inicio = () => {
