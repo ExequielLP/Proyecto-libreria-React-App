@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react'
-import Logo from  '../public/fotos/imagenLogo.webp'
+import Logo from  '../assets/fotos/imagenLogo.webp'
 import { NavLink,Link, useNavigate } from 'react-router-dom'
 import { CarritoContext } from '../contexto/CarritoContexto'
 import ItemCarritoInicio from './ItemCarritoInicio'

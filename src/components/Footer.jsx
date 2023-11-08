@@ -1,9 +1,10 @@
 import React from 'react'
 
-import foto1 from '../public/criptomonedas/bitcionOptimazado.webp'
-import foto2 from '../public/criptomonedas/dogeOptimizada.webp'
-import foto3 from '../public/criptomonedas/etherOptimizado.webp'
-import foto4 from '../public/criptomonedas/rippleOptimizada.webp'
+
+import foto1 from '../assets/criptomonedas/bitcionOptimazado.webp'
+import foto2 from '../assets/criptomonedas/dogeOptimizada.webp'
+import foto3 from '../assets/criptomonedas/etherOptimizado.webp'
+import foto4 from '../assets/criptomonedas/rippleOptimizada.webp'
 import "./Footer.css"
 const Footer = () => {
     return (

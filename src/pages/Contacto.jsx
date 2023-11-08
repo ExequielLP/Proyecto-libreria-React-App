@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react'
-import foto1 from '../public/contactoIMG/telefonoOptimizada.webp'
+import foto1 from '../assets/contactoIMG/telefonoOptimizada.webp'
 
 
 const Contacto = () => {

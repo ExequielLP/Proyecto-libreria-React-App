@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
-import foto1 from '../public/fotos/willyPhotoshop.webp'
-import foto2 from '../public/fotos/jimmy-wales-photoshopI.webp'
+import foto1 from '../assets/fotos/willyPhotoshop.webp'
+import foto2 from '../assets/fotos/jimmy-wales-photoshopI.webp'
 import "./QuienesSomos.css"
 
 const QuinesSomos = () => {
