@@ -49,7 +49,7 @@ useEffect(() => {
   <div className="container-fluid cardIndexHo  mb-0 mt-2" style={{maxwidth: '1000px'}}>
     <div className="row g-0">
       <div className="col-md-6">
-        <img src='src/public/cardTIPOfila/cardOrinizatalIdnex.webp' className="img-fluid rounded-start h-100" alt="..."/>
+        <img src='/cardTIPOfila/cardOrinizatalIdnex.webp' className="img-fluid rounded-start h-100" alt="..."/>
       </div>
       <div className="col-md-5 cardHorizonatal">
         <div className="card-body">

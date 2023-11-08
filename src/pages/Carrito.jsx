@@ -119,7 +119,7 @@ const {carrito,cantidadArticulosCarritoContext,precioTotalArticulosCarrito, guar
       
       <div className="row justify-content-center ">
         <div className="card" style={{width: '150px'}}>
-          <img src='src\public\fotos\libro3.webp' className="card-img-top  " alt="..."/>
+          <img src='\fotos\libro3.webp' className="card-img-top  " alt="..."/>
         
             <ul className="list-group list-group-flush ajusteListGroup">
               <li className="list-group-item text-bg-secondary p-3" >Año:2020</li>
@@ -131,7 +131,7 @@ const {carrito,cantidadArticulosCarritoContext,precioTotalArticulosCarrito, guar
 
       {/*   <!--  otra carta --> */}
         <div className="card" style={{width: '150px'}}>
-          <img src='src\public\fotos\libro4.webp' className="card-img-top" alt="..."/>
+          <img src='\fotos\libro4.webp' className="card-img-top" alt="..."/>
           
             <ul className="list-group list-group-flush ajusteListGroup">
               <li className="list-group-item text-bg-secondary p-3" >Año:2023</li>
