@@ -28,7 +28,7 @@ useEffect(() => {
     <div className="row py-3 mb-3">
       <div className="col-4 mb-1">
         
-        <div className="bg-image rounded"><img className="w-100 borderImg" src={`src/public/fotos/${itemProducto.foto}`} alt={itemProducto.caracteristicas}/></div>
+        <div className="bg-image rounded"><img className="w-100 borderImg" src={`/fotos/${itemProducto.foto}`} alt={itemProducto.caracteristicas}/></div>
         </div>
     {
      
