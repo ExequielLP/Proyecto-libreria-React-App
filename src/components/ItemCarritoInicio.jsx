@@ -10,7 +10,7 @@ const handleEliminar=(id)=>{
   return (
     <tr>
         <td>
-  <img src={`/src/public/fotos/${item.foto}`} alt={item.descripcion} width="100"/>
+  <img src={`/fotos/${item.foto}`} alt={item.descripcion} width="100"/>
 </td>
 <td>Fisico</td>
 <td>${item.precio}</td>
