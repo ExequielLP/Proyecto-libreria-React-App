@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createContext } from "react";
+import { createContext,useEffect } from "react";
 
 const ThemeContext=createContext()
 
@@ -14,7 +14,13 @@ const handleTheme=()=>{
     (theme==="light") ? settheme("dark") : settheme(temaInciail)
     document.body.setAttribute("data-bs-theme",theme)
     localStorage.setItem("modo",theme)  
+
 }
+useEffect(() => {
+    // Actualiza el atributo data-bs-theme y el localStorage cuando cambia el tema
+    document.body.setAttribute("data-bs-theme", theme);
+    localStorage.setItem("modo", theme);
+  }, [theme]);
 function cargarLocalStrorage(){
     let itemLS=localStorage.getItem("modo")
     if (itemLS===null) {
