@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import { CarritoContext } from '../contexto/CarritoContexto'
-
-
+import "../pages/inicio.css"
 
 export const Card = ({producto}) => {
   
@@ -14,7 +13,7 @@ console.log(producto)
 agregarCarritoContext(producto)
     }
   return (
-    <div className="card  col-3  p-1 mb-0 mt-1  BackGrupdCards " >
+    <div className="card  col-3  p-1 mb-0 mt-1  BackGrupdCards" >
     <img src={`/fotos/${producto.foto}`} className="card-img-top" alt="..."/>
     <div className="card-body   CardBodyExe ">
       <h5 className="card-title CardStyle">Titulo: {producto.nombre}</h5>
@@ -24,7 +23,8 @@ agregarCarritoContext(producto)
                   </li>
       </ul>
       <li style={{ listStyleType: 'none' }} className="text-center CarritoFont"><i className="bi bi-cash-coin">{producto.precio}</i></li>
-      <button className="btn btn-outline-secondary  ExeBoton  " onClick={()=>handleComprar(producto)} >Comprar</button>
+      <div className='d-flex justify-content-center'><button className="btn ExeBoton " onClick={()=>handleComprar(producto)}>Comprar</button></div>
+      
     </div>
   </div>
   )

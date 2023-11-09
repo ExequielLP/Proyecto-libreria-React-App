@@ -5,17 +5,7 @@ margin: 0;
 padding: 0%;
 box-sizing: border-box;
 }
-.ExeBoton{
-    display: flex;
-    justify-content: end;
-    margin-left: 50px;
-    margin-bottom: 1px;
-    margin-top: 20px;
-    background-color: #796B5F;
-    color: whitesmoke;
-    border: whitesmoke;
-    
-}
+
 .ExeBoton1{
 
     background-color: #796B5F;
